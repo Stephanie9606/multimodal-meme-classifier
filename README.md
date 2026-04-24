@@ -10,7 +10,7 @@ classifying internet memes by combining text (BERT) and image (VGG-16)
 modalities via *early-* and *late-fusion* strategies.
 
 - 📄 **Paper**: [IEEE Xplore 10825758](https://ieeexplore.ieee.org/document/10825758) · [local PDF](docs/paper.pdf)
-- 🗂 **Original paper notebooks** (archival): [MultimodalDeepLearning_OnlineMemeClassification](https://github.com/stephaniehan/MultimodalDeepLearning_OnlineMemeClassification)
+- 🗂 **Original paper notebooks** (archival): [MultimodalDeepLearning_OnlineMemeClassification](https://github.com/Stephanie9606/MultimodalDeepLearning_OnlineMemeClassification)
 
 ---
 
@@ -73,7 +73,7 @@ and averages their probability distributions.
 ## 🛠 Installation
 
 ```bash
-git clone https://github.com/<your-user>/multimodal-meme-classifier.git
+git clone https://github.com/Stephanie9606/multimodal-meme-classifier.git
 cd multimodal-meme-classifier
 
 # Python 3.11 virtualenv or conda env recommended (TensorFlow 2.15 pins).
