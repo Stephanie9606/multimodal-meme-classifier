@@ -1,0 +1,22 @@
+model:
+  type: image
+  num_classes: 1
+  image_size: 224
+  hidden_units: 512
+  dropout: 0.5
+  fine_tuned: true
+
+data:
+  tsv_path: data/top5_memes_tidy.tsv
+  binary_classes: [Scared Cat, Who Killed Hannibal]
+  batch_size: 32
+  val_size: 0.1
+  test_size: 0.25
+  seed: 15
+
+training:
+  optimizer: adam
+  learning_rate: 0.005
+  epochs: 10
+  early_stopping_patience: 3
+  verbose: 2
